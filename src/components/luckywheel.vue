@@ -25,14 +25,12 @@
       <div class="main-bg"></div>
       <div class="bg-p"></div>
       <div class="content">
-        <div class="count">今日免费抽奖次数： {{ count}}</div>
+        <div class="count">今日剩余次数： {{ count}}</div>
       </div>
       <div class="tip">
-        <div class="tip-title">活动规则</div>
+        <div class="tip-title">神奇的午餐转盘</div>
         <div class="tip-content">
-          <p>1.每日签到后，即可获得一次幸运大转盘的机会，仅限当天有效，过期作废。 2.金币抽奖，每10个金豆可兑换一次大转盘机会。</p>
-          <p>2.金币抽奖，每10个金豆可以兑换一次大转盘抽奖机会</p>
-          <p>3.所中金豆或积分到【我的账户】中查询。累计达到100金豆及以上，可以兑换相应奖品</p>
+          <p>点击开始即可</p>
         </div>
       </div>
     </div>
@@ -93,8 +91,8 @@ export default {
     },
     toastTitle () {
       return this.prize && this.prize.isPrize === 1
-        ? "恭喜您，获得" +
-            this.prize.name
+        ? "今天中午吃" +
+            this.prize.name + "吧！"
         : "未中奖";
     },
     toastIcon() {

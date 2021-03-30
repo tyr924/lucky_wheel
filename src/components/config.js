@@ -1,42 +1,42 @@
 export const prizeList = [
   {
     icon: require("../assets/img/bean_500.png"), // 奖品图片
-    name: "奖品1", // 奖品名称
+    name: "自助", // 奖品名称
     isPrize: 1 // 该奖项是否为奖品
   },
   {
     icon: require("../assets/img/bean_five.png"),
-    name: "奖品2",
+    name: "日料",
     isPrize: 1
   },
   {
     icon: require("../assets/img/bean_one.png"),
-    name: "奖品3",
+    name: "烤肉烤串",
     isPrize: 1
   },
   {
     icon: require("../assets/img/point_five.png"),
-    name: "奖品4",
+    name: "东南亚菜",
     isPrize: 1
   },
   {
     icon: require("../assets/img/point_ten.png"),
-    name: "奖品5",
+    name: "西餐",
     isPrize: 1
   },
   {
     icon: require("../assets/img/bean_500.png"),
-    name: "奖品6",
+    name: "韩料",
     isPrize: 1
   },
   {
-    icon: require("../assets/img/give_up.png"),
-    name: "奖品7",
-    isPrize: 0
+    icon: require("../assets/img/bean_one.png"),
+    name: "火锅",
+    isPrize: 1
   },
   {
     icon: require("../assets/img/bean_500.png"),
-    name: "奖品8",
+    name: "食堂",
     isPrize: 1
   }
 ]
